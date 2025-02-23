@@ -2,12 +2,12 @@
   "name": "yarin-karavani",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://karavani.github.io/yarin-karavani",
+  "homepage": ".",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "touch out/.nojekyll && gh-pages -d out -t true"
+    "deploy": "next build && cd out && echo. > .nojekyll && cd .. && gh-pages -d out"
   }
 }
