@@ -6,6 +6,7 @@ const nextConfig = {
   },
   basePath: '/yarin-karavani',
   assetPrefix: '/yarin-karavani',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
