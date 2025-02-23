@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroSection from "./sections/HeroSection";
+
 
 export default function Home() {
   return (
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-8">
           <h2 className="text-3xl font-bold mb-12">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Project cards with hover effects */}
+  
             {[1, 2, 3].map((index) => (
               <div key={index} className="group relative aspect-[4/3] overflow-hidden rounded-lg cursor-pointer">
                 <Image
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Articles Grid */}
+
       <section className="max-w-6xl mx-auto py-12 px-8">
         <div className="grid grid-cols-3 gap-6">
           <article className="group cursor-pointer">
@@ -101,14 +101,11 @@ export default function Home() {
             </h3>
             <p className="text-sm text-gray-500">17 min read</p>
           </article>
-          {/* Add two more similar articles */}
         </div>
       </section>
-
-      {/* Featured Story */}
-      <section className="bg-gray-50 py-16">
+ <section className="bg-gray-50 py-16">
         <div className="max-w-6xl mx-auto px-8">
-          <span className="text-gray-500 uppercase tracking-wider">RAPTURE'S SPOTLIGHT</span>
+          <span className="text-gray-500 uppercase tracking-wider">S SPOTLIGHT</span>
           <div className="grid grid-cols-2 gap-12 mt-8">
             <div>
               <h2 className="text-4xl font-bold mb-4">
@@ -182,10 +179,9 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Testimonials */}
           <div className="mt-20 grid md:grid-cols-3 gap-8">
             <div className="bg-black/30 p-8 rounded-lg">
-              <p className="text-gray-300 mb-6">״הוידאו שירין יצר עבורנו העביר בדיוק את המסר שרצינו להעביר ללקוחות שלנו. מקצועי, יצירתי ומדויק.״</p>
+              <p className="text-gray-300 mb-6">&quot;הוידאו שירין יצר עבורנו העביר בדיוק את המסר שרצינו להעביר ללקוחות שלנו. מקצועי, יצירתי ומדויק.&quot;</p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-gray-600"></div>
                 <div>
@@ -195,7 +191,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-black/30 p-8 rounded-lg">
-              <p className="text-gray-300 mb-6">״התוצאה הסופית עלתה על כל הציפיות שלנו. ירין הצליח לתפוס את הרגעים המושלמים.״</p>
+              <p className="text-gray-300 mb-6">&quot;התוצאה הסופית עלתה על כל הציפיות שלנו. ירין הצליח לתפוס את הרגעים המושלמים.&quot;</p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-gray-600"></div>
                 <div>
@@ -205,7 +201,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-black/30 p-8 rounded-lg">
-              <p className="text-gray-300 mb-6">״עבודה מקצועית ברמה הגבוהה ביותר. ירין הוא כבר חלק בלתי נפרד מהצוות שלנו.״</p>
+              <p className="text-gray-300 mb-6">&quot;עבודה מקצועית ברמה הגבוהה ביותר. ירין הוא כבר חלק בלתי נפרד מהצוות שלנו.&quot;</p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-gray-600"></div>
                 <div>
@@ -218,7 +214,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section ... */}
+
       <section className="py-20 bg-black text-white" id="contact">
         <div className="max-w-4xl mx-auto px-8 text-center">
           <h2 className="text-4xl font-bold mb-8">בואו ניצור משהו מיוחד</h2>
